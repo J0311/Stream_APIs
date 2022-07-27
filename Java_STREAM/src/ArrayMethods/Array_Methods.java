@@ -197,6 +197,32 @@ public class Array_Methods {
 		
 		IntStream is5 = Arrays.stream(numbers, 5,10);
 		is5.distinct().forEach(System.out::println);
+		
+		System.out.println();
+		
+		// Find any EVEN number from given array, or between two indices
+		
+		IntStream is6 = Arrays.stream(numbers, 5,10);
+		
+		// for anyMatch method, must pass a predicate (in lambda)
+		// if any element(n) % 2 == 0, it's even 
+		// Will print true or false:
+		
+		System.out.println(is6.anyMatch(n -> n % 2 == 0));
+		
+		System.out.println();
+		
+		// Print all elements from given array. Use lambda:
+		
+		Arrays.stream(numbers).forEach(e-> System.out.print(e + " "));
+		
+		System.out.println();
+		
+		// Print ONLY DISTINC elements:
+		
+		Arrays.stream(numbers).distinct().forEach(e-> System.out.print(e + " "));
+		
+		
 
 		
 		
