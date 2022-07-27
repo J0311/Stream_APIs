@@ -137,6 +137,8 @@ public class Array_Methods {
 		System.out.println(Arrays.binarySearch(num1, 7));
 		// returns index 3
 		
+		System.out.println();
+		
 		/***
 		 * OTHER STREAM APIS
 		 */
