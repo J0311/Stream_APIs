@@ -170,6 +170,17 @@ public class Array_Methods {
 		
 		System.out.println(is2.sum());
 		
+		System.out.println();
+		
+		// Count of DISTINCT element between given indices
+		// e.g. index 5 - 10 has two elements of value 7
+		
+		IntStream is3 = Arrays.stream(numbers, 5,10);
+		int distinctNumberSum = is3.distinct().sum();
+		
+		// this will take only distinct elements and return sum
+		System.out.println(distinctNumberSum);
+		
 	}
 	
 	}
