@@ -156,6 +156,20 @@ public class Array_Methods {
 		// here, we use Stream API to print sum of array elements:
 		System.out.println(is.sum());
 		
+		System.out.println();
+		
+		// Sum of elements between given indices
+		// sum of 5th index to 10th index
+		// Here, we create a "NEW STREAM" that represents
+		// index 5 - 10 of numbers array:
+		// first index(5)is INCLUSIVE
+		// last index (10) is EXCLUSIVE and will NOT be included
+		
+		
+		IntStream is2 = Arrays.stream(numbers,5,10);
+		
+		System.out.println(is2.sum());
+		
 	}
 	
 	}
