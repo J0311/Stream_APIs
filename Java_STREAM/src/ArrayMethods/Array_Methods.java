@@ -181,6 +181,16 @@ public class Array_Methods {
 		// this will take only distinct elements and return sum
 		System.out.println(distinctNumberSum);
 		
+		System.out.printlin();
+		
+		// COUNT distinct elements between indices:
+		
+		IntStream is4 = Arrays.stream(numbers, 5,10);
+
+		System.out.println(is4.distinct().count());
+		
+		// Print DISTINCT elements between given indices
+		
 	}
 	
 	}
