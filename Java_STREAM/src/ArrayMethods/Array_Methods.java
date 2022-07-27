@@ -137,6 +137,23 @@ public class Array_Methods {
 		System.out.println(Arrays.binarySearch(num1, 7));
 		// returns index 3
 		
+		/***
+		 * OTHER STREAM APIS
+		 */
+		
+		// SUM of all elements in an array
+		// take your integer array...turn it into an integer STREAM
+		// Store that integer stream into a variable: 
+		
+		int [] numbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18};
+		
+		IntStream is = Arrays.stream(numbers);
+		
+		// now, you can manipulate your integer stream using "is":
+		
+		// here, we use Stream API to print sum of array elements:
+		System.out.println(is.sum());
+		
 	}
 	
 	}
