@@ -165,7 +165,7 @@ public class Array_Methods {
 		// first index(5)is INCLUSIVE
 		// last index (10) is EXCLUSIVE and will NOT be included
 		
-		
+		// @parem: arrayName, start index, end index:
 		IntStream is2 = Arrays.stream(numbers,5,10);
 		
 		System.out.println(is2.sum());
