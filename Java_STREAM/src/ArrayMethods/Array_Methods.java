@@ -191,6 +191,15 @@ public class Array_Methods {
 		
 		// Print DISTINCT elements between given indices
 		
+		System.out.println();
+		
+		// Print DISTINCT elements between given indices
+		
+		IntStream is5 = Arrays.stream(numbers, 5,10);
+		is5.distinct().forEach(System.out::println);
+
+		
+		
 	}
 	
 	}
