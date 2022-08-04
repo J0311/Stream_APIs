@@ -40,3 +40,4 @@ public class _Predicate {
     static Predicate<String>containsNumber3 = phoneNumber ->
             phoneNumber.contains("3");
 }
+
