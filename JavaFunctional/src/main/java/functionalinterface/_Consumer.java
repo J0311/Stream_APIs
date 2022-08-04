@@ -10,7 +10,6 @@ public class _Consumer {
         // Normal Java method:
         greetCustomer(maria);
 
-
         // Uses Consumer Functional Interface
         greetCustomerConsumer.accept(maria);
     }
