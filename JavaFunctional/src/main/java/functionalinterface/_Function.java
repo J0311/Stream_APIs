@@ -2,7 +2,6 @@
  * Juxtaposes normal function with Function interface, Function<T,R></T,R>
  */
 
-
 package functionalinterface;
 
 import java.util.function.BiFunction;
