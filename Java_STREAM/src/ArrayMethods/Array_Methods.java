@@ -113,6 +113,7 @@ public class Array_Methods {
 		// if 2nd array (words2) is "lexographically first", returns a postive 
 		// number.
 		
+		
 		// if you set this method equal to a variable and print it, will print
 		// out the numeric DIFFERENCE between the TWO ARRAYS
 		// e.g.:
