@@ -66,7 +66,7 @@ public class Array_Methods {
 		 * int [] arr1 = new int[5];
 		 * int [] arr2 = arr1;
 		 * 
-		 * This is BAD practive, because any changes 
+		 * This is BAD practice, because any changes 
 		 * made to arr1 effects arr2, and vice versa
 		 * Instead, make an acual copy with "copyOf" method:
 		 */
