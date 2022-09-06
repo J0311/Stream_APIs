@@ -28,6 +28,7 @@ class Numbers {
     numbers.forEach((e) -> {
       e = e * 10;
       System.out.println(e + " ");
+	    
     });
     
     // New Integer ArrayList which takes the square root of it's elements
